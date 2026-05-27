@@ -1,4 +1,3 @@
-import java.util.*;
 public class FreqArr
 {
     public static boolean auto(String s){
@@ -12,8 +11,7 @@ public class FreqArr
         return true;
     }
 	public static void main(String[] args) {
-	    Scanner sc=new Scanner(System.in);
-	    String s=sc.nextLine();
+	    String s="1234567890";
 	    
 	    if(auto(s))System.out.println("AutoBiography");
 	    else System.out.print("Not Autobiography");
